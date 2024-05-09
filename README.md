@@ -1,7 +1,7 @@
 # Excel_Statistics：Statistical functions that cannot be achieved with EXCEL,Make statistics simpler
 
 <div align="center">
-<img src="https://raw.githubusercontent.com/wuxingyu090/excel_statistics/blob/main/src/excel.png" align="center" style="width: 100%" />
+<img src="https://raw.githubusercontent.com/wuxingyu090/excel_statistics/main/src/excel.png" align="center" style="width: 100%" />
 </div>
 <br>
 

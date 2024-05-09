@@ -1,14 +1,9 @@
 # Excel_Statistics：Statistical functions that cannot be achieved with EXCEL,Make statistics simpler
 
-
-
-## ![excel](/Users/josiah/Documents/wxyfile/Code/Python/测试/excel_statistics/src/excel.png)
-
-
-
-
-
-
+<div align="center">
+<img src="https://raw.githubusercontent.com/wuxingyu090/excel_statistics/blob/main/src/excel.png" align="center" style="width: 100%" />
+</div>
+<br>
 
 Excel is a very convenient data text, but its table filtering cannot satisfy everyone. I want to develop a tool that is more convenient to use to count Excel data.
 

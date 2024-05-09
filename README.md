@@ -36,7 +36,10 @@ Excel is a very convenient data text, but its table filtering cannot satisfy eve
 
 ## Setup
 
-***
+Environmental preparation:
+
+* Install the Git tool in advance, and the latest version is enough.
+* Install the Python environment in advance, preferably the V3.10 version
 
 1. Get Clone the project
 
@@ -55,6 +58,7 @@ Excel is a very convenient data text, but its table filtering cannot satisfy eve
 4. 🔥 And now **run**:
 
    ```bash
+   pip install -r requirements.txt
    python main.py  #Python Version 3.10.6
    ```
 

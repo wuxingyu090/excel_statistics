@@ -27,7 +27,7 @@ def __get_keywords(matchd):
 def __match_type(field,matchd,data):
     keywords = __get_keywords(matchd)
     if isinstance(keywords, list):
-        pattern = rf'\w*({"|".join(keywords)})\w*'
+        pattern = rf'\w*({"|".join(map(re.escape, keywords))})\w*'
         filtered_data = [data_dict for data_dict in data if re.search(
             pattern, data_dict.get(field))]
         return filtered_data
@@ -37,7 +37,7 @@ def __match_type(field,matchd,data):
                 keywords, data_dict.get(field))]
             return filtered_data
         else:
-            pattern = rf'\w*{keywords}\w*'
+            pattern = rf'\w*{re.escape(keywords)}\w*'
             filtered_data = [data_dict for data_dict in data if re.search(
                 pattern, data_dict.get(field))]
             return filtered_data
@@ -87,29 +87,3 @@ def cycle_statistics(input_data: list) -> list:
     except UnboundLocalError as e:
         print(f"Error: {e},未匹配到数据")
         return []
-
-
-
-
-
-
-
-
-
-# def check_type(data):
-#     if isinstance(data, list):
-#         return "The input is a list."
-#     elif isinstance(data, str):
-#         return "The input is a string."
-#     else:
-#         return "The input is neither a list nor a string."
-
-
-# class MatchKeycountClass:
-#     # 判断是否是列表
-#     def __list_check(data):
-#         data = pd.read_excel(self.file, sheet_name=self.sheet)
-#         data_dict = data.to_dict('records')
-#         return data_dict
-
-

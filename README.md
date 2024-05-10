@@ -28,6 +28,17 @@ Excel is a very convenient data text, but its table filtering cannot satisfy eve
   - Independent specific matching support
   - Chart display support
 
+## Directory
+
+***
+
+* src : Source code directory
+  * data_interaction : OS, GUI and other logical code directories
+  * excel_process : Handle Excel-related logical code directories
+  * Match_process : Corresponding statistical rule configuration table logical code directory
+* Input : Storage location of statistical rule configuration table
+* Output : Post-count output table storage location
+
 ## Commands
 
 ***
@@ -67,6 +78,25 @@ Environmental preparation:
 ## ❤️ Top donations
 
 ***
+
+<center>
+    <table>
+        <tr>
+            <td>
+                <figure>
+                    <img src="https://storage.bbcking5.com/%E7%94%9F%E6%B4%BB/%E5%85%B6%E4%BB%96/%E5%85%AC%E4%BC%97%E5%8F%B7.png-wuxingyuwordpresspic" width="200" />
+                    <figcaption>个人公众号</figcaption>
+                </figure>
+            </td>
+            <td>
+                <figure>
+                    <img src="https://storage.bbcking5.com/%E7%94%9F%E6%B4%BB/%E5%85%B6%E4%BB%96/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99.png-wuxingyuwordpresspic" width="200" />
+                    <figcaption>个人网站</figcaption>
+                </figure>
+            </td>
+        </tr>
+    </table>
+</center>
 
 You can be in this list:
 
